@@ -1,0 +1,16 @@
+.dropdownToolbar{
+    height: 100px;
+}
+.dropdown{
+    height : 100%;
+    margin-right: 78%;
+    font-size: medium;
+    padding-left: 75px;
+    font-weight: 400;
+}
+select{
+    text-align-last:center;
+    margin: 38px 0px 32px 10px;
+    height: 30px;
+    width: 150px;
+}

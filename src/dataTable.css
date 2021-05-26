@@ -1,0 +1,37 @@
+.table {
+    min-width: 1200px;
+    margin : auto;
+    border-spacing: 0;
+    border: 1px solid #dfdfdf;    
+    min-height: 140px;
+  }
+  
+  .table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+  }
+  .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+  }
+  
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 1px solid rgb(223 223 223 / 24%);
+  }
+  td, th {
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  table.table th {
+    background: #037171;
+  }
+  table.table th {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  tbody{
+    min-height: 50vh;
+  }
