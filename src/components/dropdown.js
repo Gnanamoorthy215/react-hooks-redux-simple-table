@@ -1,7 +1,7 @@
 import React from 'react';
-import './dropdown.css';
+import '../styles/dropdown.css';
 import {useDispatch,useSelector} from 'react-redux';
-import {statusFilter} from './actions/actions';
+import {statusFilter} from '../actions/actions';
 
 
 function Dropdown (){

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector} from 'react-redux';
-import {setTableData} from './actions/actions'
-import './dataTable.css'
-import loader from './loading.gif'
+import {setTableData} from '../actions/actions'
+import '../styles/dataTable.css'
+import loader from '../loading.gif'
 
 function DataTable(){
     const [tableEntries,setTableEntries] = React.useState([]);

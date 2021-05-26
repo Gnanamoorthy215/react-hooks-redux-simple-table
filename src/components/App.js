@@ -1,4 +1,4 @@
-import './App.css';
+import '../styles/App.css';
 import DataTable from './dataTable'
 import Dropdown from './dropdown';
 
